@@ -7,6 +7,12 @@
  - Delete Tasks: Remove unwanted tasks from your list with a simple click of the delete button.
  - Mark Tasks as Completed: Keep track of your progress by marking tasks as completed or pending.
  - Responsive Design: Enjoy a consistent experience across various devices with our responsive design.
+
+
+## Pictures 
+<p>Comming Soon !!!</p>
+
+
 ## Installation
 To run this application locally, follow these steps:
 1. Clone this repository to your local machine.
