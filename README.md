@@ -42,4 +42,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/cc-Mehdi/React-ToDo/blob/main/LICENSE) file for details.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact us at cc.MehdiGholami@gmail.com
+If you have any questions or suggestions, feel free to contact us at [cc.MehdiGholami@gmail.com](mailto:cc.MehdiGholami@gmail.com)
