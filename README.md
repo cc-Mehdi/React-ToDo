@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/cc-Mehdi/React-ToDo)
+
 # React Todo App  <img src="https://cdn-icons-png.flaticon.com/128/9099/9099168.png" width="35" height="35" />
 ### Welcome to the React Todo App! This is a simple yet powerful web application designed to help you manage your tasks efficiently. Built using React, this mini application provides a seamless and intuitive user experience for creating, editing, and deleting tasks.
 
