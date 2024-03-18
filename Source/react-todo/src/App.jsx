@@ -14,7 +14,7 @@ function App() {
             <ul className="list-reset">
               <li className="relative flex items-center justify-between px-2 py-6 border-b">
                 <div>
-                  <input type="checkbox" readOnly className="" />
+                  <input type="checkbox" onChange={() => {}} className="" />
                   <p className="inline-block mt-1 ml-2 text-gray-600">Tailwind CSS To DO App List 1</p>
                 </div>
                 <button type="button" className="absolute right-0 flex items-center space-x-1">
@@ -29,7 +29,7 @@ function App() {
               </li>
               <li className="relative flex items-center justify-between px-2 py-6 border-b">
                 <div>
-                  <input type="checkbox" readOnly checked className="" />
+                  <input type="checkbox" onChange={() => {}} className="" />
                   <p className="inline-block mt-1 ml-2 text-gray-600 line-through">Tailwind CSS To DO App List 2</p>
                 </div>
                 <button type="button" className="absolute right-0 flex items-center  space-x-1">
