@@ -10,3 +10,15 @@
 ##### - Responsive Design: Enjoy a consistent experience across various devices with our responsive design.
 #### Installation
 ##### To run this application locally, follow these steps:
+1. Clone this repository to your local machine.
+```
+git clone https://github.com/your-username/react-todo-app.git
+```
+2. Navigate into the project directory.
+```
+cd react-todo-app
+```
+3. Install dependencies using npm.
+```
+npm install
+```
