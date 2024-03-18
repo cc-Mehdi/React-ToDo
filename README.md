@@ -1,5 +1,4 @@
-
-# React Todo App
+# React Todo App <img src="https://cdn-icons-png.flaticon.com/128/9099/9099168.png" width="50" height="50" />
 ### Welcome to the React Todo App! This is a simple yet powerful web application designed to help you manage your tasks efficiently. Built using React, this mini application provides a seamless and intuitive user experience for creating, editing, and deleting tasks.
 
 ## Features
