@@ -1,6 +1,23 @@
 import TodoList from './TodoList';
 
 export default function Todos() {
+
+    const tasks = [
+        {
+            title: "task one",
+            checked: true
+        },
+        {
+            title: "task two",
+            checked: true
+        },
+        {
+            title: "task three",
+            checked: false
+        }
+    ];
+
+
     return (
         <div className="bg-gray-100">
             <div className="flex items-center justify-center h-screen">
@@ -12,7 +29,7 @@ export default function Todos() {
                         <input type="text" placeholder="What needs to be done today?"
                             className="w-full px-2 py-3 border rounded outline-none border-grey-600" />
                     </div>
-                    <TodoList />
+                    <TodoList tasks={tasks}/>
                 </div>
             </div>
         </div>

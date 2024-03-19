@@ -3,19 +3,19 @@ import EditIcon from "./icons/EditIcon";
 
 
 
-export default function TodoListItem({title, isDone}) {
+export default function TodoListItem({title, checked}) {
     return (
         <li className="relative flex items-center justify-between px-2 py-6 border-b">
             <div>
                 
                 {
-                    (isDone)
+                    (checked)
                     ? <input type="checkbox" checked onChange={() => { }} className="" />
                     : <input type="checkbox" onChange={() => { }} className="" />
                 }
                 {
-                    (isDone)
-                    ? <p className="inline-block mt-1 ml-2 text-gray-600 line-through">Tailwind CSS To DO App List 2</p>
+                    (checked)
+                    ? <p className="inline-block mt-1 ml-2 text-gray-600 line-through">{title}</p>
                     : <p className="inline-block mt-1 ml-2 text-gray-600">{title}</p>
                 }
             </div>
