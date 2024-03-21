@@ -4,7 +4,7 @@ import EditIcon from "./icons/EditIcon";
 
 
 
-export default function TodoListItem({ todo }) {
+export default function TodoListItem({ todo, deleteTodo }) {
 
 
 
@@ -17,7 +17,7 @@ export default function TodoListItem({ todo }) {
             </div>
             <button type="button" className="absolute right-0 flex items-center space-x-1">
                 <EditIcon />
-                <DeleteIcon onClick={() => {console.log({todo})}} />
+                <DeleteIcon onClickHandler={() => {deleteTodo(todo)}} />
             </button>
         </li>
     )

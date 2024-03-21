@@ -47,6 +47,14 @@ export default function Todos() {
         setInputValue('');
     };
 
+    const deleteTodoHandler = (todo) => {
+        let newTodoList = tasks.filter((todoItem) => {
+            if (todoItem.id != todo.id)
+                return true;
+        });
+        setTasks(newTodoList);
+    }
+
 
     return (
         <div className="bg-gray-100">
@@ -63,7 +71,7 @@ export default function Todos() {
                             placeholder="What needs to be done today?"
                             className="w-full px-2 py-3 border rounded outline-none border-grey-600" />
                     </div>
-                    <TodoList tasks={tasks} />
+                    <TodoList tasks={tasks} deleteTodo={deleteTodoHandler} />
                 </div>
             </div>
         </div>
