@@ -1,19 +1,18 @@
 import { useState } from 'react';
 import TodoList from './TodoList';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Todos() {
 
     const todos = [
         {
+            id: uuidv4(),
             title: "task one",
             checked: true
         },
         {
+            id: uuidv4(),
             title: "task two",
-            checked: true
-        },
-        {
-            title: "task three",
             checked: false
         }
     ];
@@ -39,6 +38,7 @@ export default function Todos() {
         setTasks([
             ...tasks,
             {
+                id: uuidv4(),
                 title: inputValue,
                 checked: false
             }
