@@ -55,6 +55,25 @@ export default function Todos() {
         setTasks(newTodoList);
     }
 
+    const toggleTodoStatusHandler = (todo) => {
+        // tasks.map((todoItem) => {
+        //     if (todoItem.id == todo.id)
+        //         todoItem.checked = !todoItem.checked;
+        // });
+        // let newTodos = tasks;
+        // console.log(newTodos);
+        // setTasks(newTodos);
+
+        const updatedTasks = tasks.map(task => {
+
+            if (task.id === todo.id)
+                task.checked = !task.checked;
+            return task;
+
+        });
+        setTasks(updatedTasks);
+    }
+
 
     return (
         <div className="bg-gray-100">
@@ -71,7 +90,7 @@ export default function Todos() {
                             placeholder="What needs to be done today?"
                             className="w-full px-2 py-3 border rounded outline-none border-grey-600" />
                     </div>
-                    <TodoList tasks={tasks} deleteTodo={deleteTodoHandler} />
+                    <TodoList tasks={tasks} deleteTodo={deleteTodoHandler} toggleTodoStatus={toggleTodoStatusHandler} />
                 </div>
             </div>
         </div>
